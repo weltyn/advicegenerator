@@ -1,0 +1,70 @@
+body {
+  background: hsl(218, 23%, 16%);
+  align-content: center;
+  font-family: Manrope;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+
+.container {
+  background: hsl(217, 19%, 24%);
+  color: hsl(193, 38%, 86%);
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 525px;
+  margin: 6rem auto 3rem;
+  position: relative;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.adviceTitle {
+  color: hsl(150, 100%, 66%);
+  font-size: 11px;
+  letter-spacing: 4px;
+}
+
+.adviceQuote {
+  font-size: 28px;
+}
+
+.quoteimg {
+  margin: 1rem auto 3rem;
+  display: block;
+  content: url("images/pattern-divider-desktop.svg");
+}
+
+@media only screen and (max-width: 600px) {
+  .quoteimg {
+    content: url("images/pattern-divider-mobile.svg");
+  }
+}
+
+.randombutton {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  padding: 12px;
+  width: 55px;
+  display: flex;
+  border: none;
+  margin: -15px 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+
+.random {
+  content: url("images/icon-dice.svg");
+  margin: 5px auto;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+.attribution a {
+  color: hsl(228, 92%, 71%);
+}
