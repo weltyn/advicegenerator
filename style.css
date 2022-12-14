@@ -29,7 +29,7 @@ body {
 }
 
 .quoteimg {
-  margin: 1rem auto 3rem;
+  margin: 0.5rem auto 3rem;
   display: block;
   content: url("images/pattern-divider-desktop.svg");
 }
