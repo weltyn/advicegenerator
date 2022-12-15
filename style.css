@@ -52,12 +52,32 @@ body {
   left: 50%;
   transform: translate(-50%);
   box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.randombutton:hover {
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25), 0px 0px 10px hsl(150, 100%, 66%);
 }
 
 .random {
   content: url("images/icon-dice.svg");
   margin: 5px auto;
-  cursor: pointer;
+  transform-origin: center;
+}
+
+.animate {
+  animation-name: button-rotate;
+  animation-duration: 0.5s;
+  animation-direction: forwards;
+}
+
+@keyframes button-rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
 }
 
 .attribution {

@@ -13,5 +13,13 @@ function generateQuote() {
     });
 }
 
+function DoAnimation() {
+  var targetElement = document.getElementById("random");
+  targetElement.className = "random animate";
+  setTimeout(() => {
+    targetElement.className = "random";
+  }, "500");
+}
+
 generateQuote();
 reload.addEventListener("click", generateQuote);
