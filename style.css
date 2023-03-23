@@ -43,7 +43,7 @@ body {
 .randombutton {
   background-color: hsl(150, 100%, 66%);
   border-radius: 50%;
-  padding: 12px;
+  padding: 15px;
   width: 55px;
   display: flex;
   border: none;
@@ -61,7 +61,6 @@ body {
 
 .random {
   content: url("images/icon-dice.svg");
-  margin: 5px 3px;
   transform-origin: center;
 }
 
